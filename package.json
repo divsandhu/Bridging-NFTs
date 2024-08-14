@@ -1,0 +1,16 @@
+{
+  "name": "hardhat-project",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.8"
+  },
+  "dependencies": {
+    "@maticnetwork/fx-portal": "^1.0.5",
+    "@maticnetwork/maticjs": "^3.9.1",
+    "@nomicfoundation/hardhat-ethers": "^3.0.6",
+    "@openzeppelin/contracts": "^5.0.2",
+    "dotenv": "^16.4.5",
+    "erc721a": "^4.3.0",
+    "ethers": "^6.13.2"
+  }
+}

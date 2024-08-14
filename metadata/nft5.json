@@ -1,0 +1,16 @@
+{
+    "name": "Retro Astronaut",
+    "description": "A retro-styled astronaut exploring the solar system.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmbaSedQXAdaJEuvLMeup51v38nAUxpBAPRUoaog1hKdLD",
+    "attributes": [
+      {
+        "trait_type": "Vibe",
+        "value": "Nostalgic"
+      },
+      {
+        "trait_type": "Galaxy",
+        "value": "Solar"
+      }
+    ]
+  }
+  
