@@ -7,9 +7,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 contract MyNFT is ERC721A, Ownable {
     mapping(uint256 => string) private _prompts;
 
-    constructor() ERC721A("MyNFT", "MNFT") Ownable(msg.sender){
-        // transferOwnership(msg.sender);
-    }
+    constructor() ERC721A("MyNFT", "MNFT") Ownable(msg.sender){}
 
     function setPrompt(uint256 tokenId, string memory prompt) public onlyOwner {
         _prompts[tokenId] = prompt;
